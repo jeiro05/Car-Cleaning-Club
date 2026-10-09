@@ -77,7 +77,7 @@ nav a:hover {
 /* Custom font(s) */
 @font-face {
   font-family: 'Sufrimeda';
-  src: url('fonts/sufrimeda.ttf') format('truetype');
+  src: url('sufrimeda.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -108,7 +108,7 @@ nav a {
 
 /* Checkered flags */
 .side-flag {
-  background-image: url("img/flag.jpg");
+  background-image: url("flag.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
