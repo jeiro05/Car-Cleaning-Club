@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header img {
+  width: 180px;
+  height: auto;
+  margin: 0 auto 8px auto;
+}
+
+header p {
+  font-size: 0.9em;
+  font-style: italic;
+  margin: 0;
+}
+
+/* Nav. bar */
+nav {
+  background-color: #0A0E14;
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  top: 60px;
+  z-index: 999;
+}
+
+nav a {
+  font-family: 'Sufrimeda', Arial, sans-serif;
+  color: white;
+  display: block;
+  margin: 3px 0;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Homepage layout */
+.homepage {
+  display: block;
+  padding: 15px;
+}
+
+.side-flag {
+  display: none;
+}
+
+.main-content {
+  display: block;
+}
+
+.content-row {
+  display: block;
+  background-color: #186784;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content-row .text {
+  color: #ffffff;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.content-row img {
+  max-width: 100%;
+  border-radius: 1px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
+
+/* About and Contact */
+.title-box {
+  background-color: #0A0E14;
+  color: #ffffff;
+  font-family: 'Sufrimeda', Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 auto 10px;
+}
+
+.answer-box {
+  background-color: #186784;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.answer-box a {
+  color: #ffeb3b;
+  text-decoration: none;
+}
+.answer-box a:hover {
+  text-decoration: underline;
+}
+
+/* Viewports */
+@media screen and (min-width: 768px) and (max-width: 1366px), print {
+  .homepage {
+    display: block;
+    padding: 15px;
+  }
+  nav a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+
+/* Tablet Viewport Header */
+header {
+  padding-bottom: 2%;
+}
+
+/* Tablet Viewport Nav. */
+nav li {
+  display: inline-block;
+  border-right: 1px solid #ffffff
+}
+
+nav li:last-child {
+  border-right: none;
+}
